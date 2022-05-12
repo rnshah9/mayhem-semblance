@@ -1,0 +1,6 @@
+project: rnshah9/mayhem-semblance
+target: dump
+
+cmds:
+  - cmd: /semblance/dump @@
+    filepath: /test.exe
