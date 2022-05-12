@@ -4,3 +4,9 @@ target: dump
 cmds:
   - cmd: /semblance/dump @@
     filepath: /test.exe
+  - cmd: /semblance/dump -M att
+    filepath: /test.exe
+  - cmd: /semblance/dump -M masm
+    filepath: /test.exe
+  - cmd: /semblance/dump -M nasm
+    filepath: /test.exe
